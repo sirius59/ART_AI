@@ -1,0 +1,12 @@
+Binôme T
+
+algorithme qui prédit le style de l'oeuvre d'art (impressionnisme, pop art, cubisme etc...) et peut être je dit bien PEUT ETRE 
+arriver à un algorithme qui créer une oeuvre en fonction du style demandé.
+
+jeu de données:
+https://www.kaggle.com/ikarus777/best-artworks-of-all-time
+
+points de départ: 
+
+- réseau de convolution
+- réduction de dimension pour classer 
