@@ -31,4 +31,3 @@ for i in range(len(name)):
         position = (0,0)
         blanche.paste(img_copy, position)
         blanche.save('C:\\Users\\cleme\\Downloads\\dataset_resized\\resized\\thumbnail\\'+str(name[i])+'_'+str(j+1)+'.jpg')
-    #img.save('C:\\Users\\cleme\\Downloads\\dataset_resized\\resized\\thumbnail\\'+str(name[i])+'_'+str(j+1)+'.jpg')
