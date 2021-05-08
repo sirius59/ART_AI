@@ -19,6 +19,6 @@ nb_paints=artists['paintings']
 for i in range(len(name)):
   for j in range(nb_paints[i]):
     img=Image.open(f'C:\\Users\\cleme\\Downloads\\dataset\\images\\{name[i]}\\{name[i]}_{j+1}.jpg')
-    new=img.resize((400,400),resample=3)
-    newRGB=new.convert('RGB')
-    newRGB.save('C:\\Users\\cleme\\Downloads\\dataset\\resized\\'+str(name[i])+'_'+str(j+1)+'.jpg')
+    new=img.resize((250,250),resample=3)
+    newL=new.convert('L')
+    newL.save('C:\\Users\\cleme\\Downloads\\dataset\\resized\\'+str(name[i])+'_'+str(j+1)+'.jpg')
